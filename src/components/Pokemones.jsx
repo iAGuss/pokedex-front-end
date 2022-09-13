@@ -2,8 +2,6 @@ import "./pokemones.css";
 import Pokemon from "./CartaP";
 import constantepokemons from "../constantes/listapokemones";
 import React, { useState } from "react";
-import Infocontenedor from "./Infocontenedor";
-import { Link } from "react-router-dom";
 
 import pokeball from "../assets/Pokeball.png";
 import arrow from "../assets/Arrow.svg";
@@ -62,7 +60,6 @@ function Pokemones() {
             name=""
             id="jeje"
             placeholder="Buscar"
-            
           />
         </div>
       </header>

@@ -1,0 +1,73 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.delInput {
+  display: flex;
+  justify-content: center;
+  
+  text-align: center;
+  
+  
+}
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.pokeball {
+  width: 30px;
+  height: 30px;
+}
+
+.flecha {
+  height: 30px;
+
+  cursor: url(https://cur.cursors-4u.net/games/gam-13/gam1294.cur), auto !important;
+}
+
+.title2 {
+  display: flex;
+  align-items: center;
+}
+.az {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  display: flex;
+  flex: 0 0 80%;
+  align-items: center;  
+  border-radius: 5px;
+  
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headerr {
+  height: 100px;
+}
+h1 {
+  font-family: "Bold", sans-serif;
+  font-weight: 800;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  text-align: center;  
+}
+
+:-ms-input-placeholder {  
+  text-align: center; 
+}
